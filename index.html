@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Portfolio websites's title -->
+    <title>Christella Dekadjevi | Software Engineer</title>
+
+    <!-- Coding keywords -->
+    <meta name="keywords" content="Christella Dekadjevi, software engineer, frontend developer, HTML, CSS, JavaScript, portfolio" />
+
+    <!-- Descrption improvement with SEO -->
+    <meta name="description" content="Christella Dekadjevi | Software Engineer with expertise in front-end development, building responsive and dynamic websites." />
+
+    <!-- PNG Logo  -->
+    <link rel="icon" type="image/jpg" href="./assets/favicon.jpg" />
+
+    <!-- Primary-theme color for content value -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+
+    <!-- URL of this portfolio to be hosted -->
+    <meta property="og:url" content="https://christella333.github.io/alx_portfolio" />
+
+    <!-- Title of portfolio (Use what you put in <title> tag) -->
+    <meta property="og:title" content="Christella Dekadjevi | Software Engineer" />
+
+    <!-- Short description that displays when the portfolio is being shared on different platforms -->
+    <meta property="og:description" content="Portfolio of Christella Dekadjevi, a Software Engineer specializing in Front-End Development." />
+
+    <!-- Thumbnail image in assets folder and content attr with URL -->
+    <meta
+      property="og:image"
+      content="./assets/thumbnail-picture.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <!-- Content attr filled with the URL of this portfolio to be hosted -->
+    <meta property="twitter:url" content="https://christella333.github.io/alx_portfolio" />
+
+    <!-- Use the same text used within <title> element -->
+    <meta property="twitter:title" content="Christella Dekadjevi | Software Engineer" />
+
+    <!-- Short description that shows up while the portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Portfolio of Christella Dekadjevi, a Software Engineer specializing in Front-End Development."
+    />
+
+    <!-- The content is filled with the URL of the thumbnail image in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="./assets/thumbnail-picture.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Christella Dekadjevi</span>
+          <br />
+          I am a Software Engineer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.jpg"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hi there! 👋 I'm Christella Dekadjevi, a passionate and dedicated Software Engineer specializing in front-end development. 
+              My focus is on writing clean code and turning creative ideas into functional designs. 
+              I'm always eager to learn new technologies and enhance my skills to build digital experiences that leave a lasting impression.
+            </p>
+            <p class="about-wrapper__info-text">
+              I'm always open to exciting collaborations and new opportunities. 
+              Let’s connect and build something amazing together!
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Personal Budget Tracker</h3>
+              <p class="project-wrapper__text-info">
+                A simple yet powerful tool to help users manage their income and expenses. 
+                The app features a dynamic dashboard with charts and graphs to visualize spending habits. 
+                Users can categorize expenses, set budgets, and track their financial goals.
+                Key Features:
+                  Add, edit, and delete transactions.
+                  Filter expenses by category or date.
+                  Display monthly reports using a chart library like Chart.js.
+                  Tech Stack: HTML, CSS, JavaScript, LocalStorage or a backend API.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/personal-budget-tracker.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Recipe Finder App</h3>
+              <p class="project-wrapper__text-info">
+                A sleek app that allows users to search for recipes based on ingredients they have at home. 
+                The app fetches data from a public recipe API and displays detailed instructions, cooking time, and nutrition facts.
+                Key Features:
+                    Search functionality with filters (e.g., vegan, gluten-free).
+                    Save favorite recipes to a personalized list.
+                    Responsive design for a seamless experience across devices.
+                    Tech Stack: HTML, CSS, JavaScript, API Integration.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/recipe-finder-app.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Habit Tracker</h3>
+              <p class="project-wrapper__text-info">
+                A productivity app designed to help users build and maintain positive habits. 
+                Users can create a list of habits, track daily progress, and view streaks to stay motivated.
+                Key Features:
+                  Interactive calendar for progress tracking.
+                  Notifications to remind users of pending tasks.
+                  Customizable habit categories with color-coded labels.
+                  Tech Stack: HTML, CSS, JavaScript, LocalStorage or Firebase.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/habit-tracker.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Let's chat ! 👋</p>
+          <a href="#" class="cta-btn cta-btn--resume">Get in touch</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://x.com/pro_christy"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://codepen.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/christella333"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - ALX Portfolio
+          <a
+            href="https://github.com/christella333"
+            target="_blank"
+            rel="noopener noreferrer"
+            ></a
+          >Project. <br />
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
